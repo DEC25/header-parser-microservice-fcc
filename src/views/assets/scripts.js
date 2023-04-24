@@ -4,4 +4,4 @@ const URL = `${PROTOCOL}//${HOST}`
 
 let example1 = document.getElementById('example1');
 
-example1.innerHTML += `<a href="${URL}/whoami">[host]/whoami</a>`;
+example1.innerHTML += `<a href="${URL}/api/whoami">[host]/api/whoami</a>`;
